@@ -1,0 +1,23 @@
+{
+  "name": "pasta_la_vista",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alejandrosanchez93/pasta_la_vista.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alejandrosanchez93/pasta_la_vista/issues"
+  },
+  "homepage": "https://github.com/alejandrosanchez93/pasta_la_vista#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
