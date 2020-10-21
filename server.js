@@ -27,7 +27,6 @@ app.get("/reserve", function(req, res) {
   });
   
 
-// Displays all characters
 app.get("/api/tablesList", function(req, res) {
   return res.json(reserve);
 });
