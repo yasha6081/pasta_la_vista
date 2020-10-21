@@ -77,9 +77,9 @@
         id: $("#group").val().trim()
       };
 
-      $.post("/api/table", newTable)
+      $.post("/api/tables", newTable)
         .then(function(data) {
-          console.log("reservation.html", data);
+          console.log("reserve.html", data);
           alert("Adding table...");
         });
     });
