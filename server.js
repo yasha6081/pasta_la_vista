@@ -14,15 +14,15 @@ const tablesList = []
 // Routes
 
 app.get("/", function(req, res) {
-  res.sendFile(path.join(__dirname, "./public/home.html"));
+  res.sendFile(path.join(__dirname, "./Public/home.html"));
 });
 
 app.get("/tables", function(req, res) {
-  res.sendFile(path.join(__dirname, "./public/tables.html"));
+  res.sendFile(path.join(__dirname, "./Public/tables.html"));
 });
 
 app.get("/reserve", function(req, res) {
-    res.sendFile(path.join(__dirname, "./public/reserve.html"));
+    res.sendFile(path.join(__dirname, "./Public/reserve.html"));
   });
   
 
