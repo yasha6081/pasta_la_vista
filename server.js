@@ -49,7 +49,7 @@ app.get("/api/tablesList", function(req, res) {
 
 app.post("/api/tablesList", function(req, res) {
 
-    const newReservation = req.body;
+    var newReservation = req.body;
   
     newReservation.routeName = newReservation.name.replace(/\s+/g, "").toLowerCase();
   

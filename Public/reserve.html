@@ -70,14 +70,14 @@
     <script type="text/javascript">
       $("#submit").on("click", function(event) {
       event.preventDefault();
-      var newTable = {
+      var newReservation = {
         name: $("#name").val().trim(),
         phone: $("#phone").val().trim(),
         email: $("#email").val().trim(),
         id: $("#group").val().trim()
       };
 
-      $.post("/api/tables", newTable)
+      $.post("/api/tablesList", newReservation)
         .then(function(data) {
           console.log("reserve.html", data);
           alert("Adding table...");
